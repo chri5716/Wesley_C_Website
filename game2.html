@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Game — Wesley Christianson</title>
+  <meta name="description" content="A simple, easier Flappy-style game demonstrating JavaScript skills." />
+  <link rel="stylesheet" href="css/style/style.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Wesley Christianson</a>
+      <button id="navToggleG" class="nav-toggle" aria-controls="primaryNavG" aria-expanded="false" aria-label="Open navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav" id="primaryNavG" role="navigation" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+          <li><a href="discover.html" class="nav-link">Discover</a></li>
+          <li><a href="resume.html" class="nav-link">Resume</a></li>
+          <li><a href="career.html" class="nav-link">Career</a></li>
+          <li><a href="game2.html" class="nav-link active">Game</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="card">
+      <h1>Flappy — Beginner Version</h1>
+      <p>An intentionally easier Flappy-style game. Click or press <kbd>Space</kbd> to make the bird flap. Larger gaps and slower speed make this friendly for new players.</p>
+
+      <div class="game-canvas-wrapper">
+        <canvas id="flappyCanvas" width="560" height="420" aria-label="Flappy-style game canvas"></canvas>
+      </div>
+
+      <div class="game-controls">
+        <p>Score: <strong id="gameScore">0</strong></p>
+        <p>High Score: <strong id="highScore">0</strong></p>
+        <button id="startGame" class="btn">Start</button>
+        <button id="resetGame" class="btn ghost">Reset</button>
+        <p class="muted">This game demonstrates animation, collision detection, event handling, and structured code.</p>
+      </div>
+
+      <p class="small-note"><a href="index.html">← Back to Home</a></p>
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="yearG"></span> Wesley Christianson</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

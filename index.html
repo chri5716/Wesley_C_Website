@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wesley Christianson — Home</title>
+  <meta name="description" content="Wesley Christianson – Accounting student at University of Minnesota Duluth. Portfolio, resume, hobbies, and a small interactive project." />
+  <link rel="stylesheet" href="css/style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Site header / navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Wesley Christianson homepage">Wesley Christianson</a>
+
+      <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Open navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primaryNav" class="nav" role="navigation" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+          <li><a href="discover.html" class="nav-link">Discover</a></li>
+          <li><a href="resume.html" class="nav-link">Resume</a></li>
+          <li><a href="career.html" class="nav-link">Career</a></li>
+          <li><a href="game2.html" class="nav-link">Game</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main" class="container" role="main">
+    <!-- Hero / intro -->
+    <section class="hero card" aria-labelledby="heroTitle">
+      <div class="hero-grid">
+        <figure class="headshot-wrap" aria-hidden="false">
+          <img src="images/professional.jpg" alt="Professional photo of Wesley Christianson" class="headshot" loading="lazy" width="420" height="420">
+        </figure>
+        <div class="hero-content">
+          <h1 id="heroTitle">Hi — I’m Wesley Christianson</h1>
+          <p class="subtitle">Accounting student — University of Minnesota Duluth</p>
+          <p>I’m an enthusiastic and dependable student pursuing a degree in Accounting. I’m seeking internship opportunities where I can learn practical accounting skills, collaborate with experienced professionals, and contribute strong work ethic and problem-solving ability.</p>
+
+          <div class="hero-cta">
+            <a class="btn" href="resume.html">View My Resume</a>
+            <a class="btn ghost" href="career.html">Career Interests</a>
+          </div>
+
+          <ul class="contact-inline" aria-label="Contact details">
+            <li><strong>Location:</strong> Cokato, MN</li>
+            <li><strong>Email:</strong> <a href="mailto:wesleychristianson06@gmail.com">wesleychristianson06@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+13205521432">(320) 552-1432</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies summary -->
+    <section class="card" aria-labelledby="hobbiesSummary">
+      <h2 id="hobbiesSummary">Hobbies & Passions</h2>
+      <p>Activities that recharge me and help develop useful skills for the workplace.</p>
+
+      <div class="cards-row">
+        <article class="mini-card">
+          <img src="images/outdoors.jpg" alt="Person walking on a lakeside trail" loading="lazy">
+          <h3>Going Outside</h3>
+          <p>Hikes, walks, and time outside keep me balanced and support focus for studying and work.</p>
+        </article>
+
+        <article class="mini-card">
+          <img src="images/firends 1.jpg" alt="Friends and social connections" loading="lazy">
+          <h3>Social Connections</h3>
+          <p>Building relationships and maintaining friendships helps develop communication and teamwork skills essential for professional success.</p>
+        </article>
+
+        <article class="mini-card">
+          <img src="images/fishing 2.jpg" alt="Fishing on a calm lake" loading="lazy">
+          <h3>Fishing</h3>
+          <p>Fishing teaches patience and adaptability — skills that transfer to teamwork and problem solving.</p>
+        </article>
+      </div>
+
+      <p class="small-note"><a href="hobbies.html">Read more about my hobbies →</a></p>
+    </section>
+
+    <!-- Discover quick -->
+    <section class="card" aria-labelledby="discoverSummary">
+      <div class="discover-content">
+        <div class="discover-text">
+          <h2 id="discoverSummary">Why I chose UMD & What I like about Duluth</h2>
+          <p>I chose UMD for its supportive community and opportunities to gain hands-on experience. Duluth offers beautiful lakefronts, outdoor activities, and internship opportunities close to campus.</p>
+          <p class="small-note"><a href="discover.html">Learn more about my experiences at UMD and in Duluth →</a></p>
+        </div>
+        <div class="discover-image">
+          <img src="images/N lights.jpg" alt="Northern lights over Duluth landscape" loading="lazy" width="300" height="200">
+        </div>
+      </div>
+    </section>
+
+    <!-- Video placeholder -->
+    <section class="card" aria-labelledby="videoTitle">
+      <h2 id="videoTitle">Welcome Video</h2>
+      <p>Replace the embedded video with your group's welcome clip when ready.</p>
+      <div class="video-wrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" title="Welcome video for Wesley" frameborder="0" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">© <span id="yearHome"></span> Wesley Christianson</p>
+        <p class="footer-small">Accounting student • University of Minnesota Duluth</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="game.html">Game</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
