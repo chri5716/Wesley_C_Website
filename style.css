@@ -190,6 +190,14 @@ a:hover{text-decoration:underline}
 
 /* video wrapper */
 .video-wrapper{ max-width:780px; overflow:hidden; border-radius:8px; box-shadow:var(--card-shadow); }
+.video-wrapper video{ 
+  display:block; 
+  width:100%; 
+  height:auto; 
+  max-width:100%; 
+  background-color:#000;
+  object-fit:contain;
+}
 
 /* canvas */
 .game-canvas-wrapper{ display:flex; justify-content:center; margin:1rem 0; }
